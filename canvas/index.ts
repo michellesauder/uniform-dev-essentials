@@ -16,6 +16,7 @@ import { cardBlockMappings } from "./CardBlock";
 import { gridMapping } from "./_containers/Grid";
 import { cardMappings } from "./Card";
 import { accordionMapping } from "./Accordion";
+import { videoPlayerMapping } from './VideoPlayer';
 import { accordionItemMapping } from "./AccordionItem";
 import { breadcrumbMapping } from "./Breadcrumbs";
 import { dividerMapping } from "./Divider";
@@ -104,6 +105,7 @@ const mappings = [
   gridMapping,
   ...cardMappings,
   accordionMapping,
+  videoPlayerMapping,
   accordionItemMapping,
   breadcrumbMapping,
   dividerMapping,
